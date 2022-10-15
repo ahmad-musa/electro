@@ -10,34 +10,37 @@
 .header {
   overflow-x: hidden;
   padding: 1em;
+  color: #7c7c7c;
+  font-size: 0.85rem;
+  font-weight: 200;
   /* Side Navbar Starts (Better Nav) */
   /* Side Navbar Ends */
 }
 .header .top {
   display: flex;
   justify-content: space-between;
+  color: #7c7c7c;
 }
-.header .top .left {
-  display: flex;
-}
-.header .top .left i {
-  padding: 1em;
-}
-.header .top .mid {
-  text-align: center;
-}
-.header .top .mid a img {
-  width: 25%;
+.header .top .left:hover {
+  color: #343f49;
 }
 .header .top .right {
   display: flex;
-  height: 3em;
+  justify-content: end;
 }
 .header .top .right i {
-  padding: 1.12em;
+  padding: 0 1rem;
 }
-.header .top .right .btns {
-  padding: 0 1.25em;
+.header .top .right a {
+  color: #7c7c7c;
+  padding: 0 0.75rem;
+  border-right: 2px solid #7c7c7c;
+}
+.header .top .right a:nth-child(4) {
+  border-right: none;
+}
+.header .top .right a:hover {
+  color: #343f49;
 }
 .header .bottom {
   display: flex;

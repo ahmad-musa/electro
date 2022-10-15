@@ -4,41 +4,44 @@
     // width: auto;
     overflow-x: hidden;
     padding: 1em;
+    color: $ash;
+    font-size: 0.85rem;
+    font-weight: 200;
+
       
     .top {
         display: flex;
         justify-content: space-between;
+        color: $ash;
 
         .left {
-            display: flex;
-          
-            i {
-                padding: 1em;
+            &:hover{
+                color: $text;
             }
-        }
-
-        .mid {
-            text-align: center;
-          
-            a img {
-                width: 25%;
-            }
-    
         }
 
         .right {
             display: flex;
-            height: 3em;
-    
-            i {
-                padding: 1.12em;
-              }
-              
-            .btns {
-                padding: 0 1.25em;
+            justify-content: end;
+            
+            i{
+                padding: 0 1rem;
             }
-        
-          }
+
+            a{
+                color: $ash;
+                padding: 0 0.75rem;
+                border-right: 2px solid $ash;
+
+                &:nth-child(4){
+                    border-right: none;
+                }
+
+                &:hover{
+                    color: $text;
+                }
+            }
+        }
 
 
     }

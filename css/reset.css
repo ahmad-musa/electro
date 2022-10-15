@@ -143,9 +143,9 @@ table {
 a,
 span,
 i { 
-    color: rgb(20, 20, 20);
+    /* color: rgb(20, 20, 20); */
     text-decoration: none;
-    display: inline-block;
+    display: inline-flex;
     cursor: pointer;
     background: white;
 }
