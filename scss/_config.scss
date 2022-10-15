@@ -1,0 +1,48 @@
+
+// COLORS 
+
+
+$ash    : #7c7c7c;
+$blue   : #0062bd;;
+$link   : #09f;
+$red    : #ee0000;
+$red2   : #df3737;
+
+
+$color1: #fed700;
+$color2: yellow;
+$color3: green;
+$white: #fff;
+$black: #333e48;
+$black: #334141;
+$text: #343f49;
+
+
+// FONTS 
+
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+}
+
+
+$fonts: "Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Open Sans","Helvetica",
+        sans-serif;
+
+// FONT SIZE
+
+$fs_xl  : 2.8rem;
+$fs_l  : 2.2rem;
+$fs_m  : 2rem;
+$fs_s  : 1.6rem;
+$fs_xs  : 1.4rem;
+
+
+// Spacing
+
+$s4: 2rem;
+$s3: 1.6rem;
+$s2: 0.8rem;
+$s1: 0.4rem;
+
